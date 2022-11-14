@@ -31,3 +31,12 @@ import java.util.Stack;
             ;
         }
 
+
+    }
+}
+public class Main{
+    public static void main(String[] args) {
+        Palind palind = new Palind();
+        palind.test();
+    }
+}
