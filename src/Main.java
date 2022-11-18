@@ -9,7 +9,7 @@ import java.util.Stack;
 
         while (true) {
 
-            a = String.valueOf(scanner.nextInt());
+            a = String.valueOf(scanner.nextInt()); //int인걸 String으로
             if (a.equals("0")) {
                 break;
             }
@@ -18,11 +18,11 @@ import java.util.Stack;
 
             // 스택에 넣기
             for (int i = 0; i < a.length(); i++) {
-                stack.add(a.charAt(i));
+                stack.add(a.charAt(i)); // String 에서 char로 변환
             }
             //스택에서 뺴기
             for (int k = 0; k < a.length(); k++) {
-                num[k] = stack.pop();
+                num[k] = stack.pop(); // num에 stack에서 pop했던걸 저장
             }
             //비교하기
             if (a.equals(String.valueOf(num))) {
