@@ -16,3 +16,7 @@ public class PianoLevel {
                 break;
             }
         }
+        if (ascending ==true) {
+            System.out.println("ascending");
+            return;
+        } // 내림차순
