@@ -31,3 +31,7 @@ public class PianoLevel {
             System.out.println("descending");
             return;
         }
+        System.out.println("mixed");
+    }
+}
+
