@@ -27,3 +27,7 @@ public class PianoLevel {
                 break;
             }
         } // 믹스드
+        if (descending ==true) {
+            System.out.println("descending");
+            return;
+        }
