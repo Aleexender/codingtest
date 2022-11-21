@@ -20,3 +20,10 @@ public class PianoLevel {
             System.out.println("ascending");
             return;
         } // 내림차순
+        boolean descending = true;
+        for (int j = a.length-1; j >=1; j--) {
+            if (a[j] > a[j - 1]) {
+                descending = false;
+                break;
+            }
+        } // 믹스드
