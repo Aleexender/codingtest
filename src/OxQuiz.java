@@ -26,3 +26,10 @@ public class OxQuiz {
                     count = 1;
                 }
             }
+            for (int k = 0; k < value.length; k++) {
+                sum += value[k];
+            }
+            System.out.println(sum);
+        }
+    }
+}
