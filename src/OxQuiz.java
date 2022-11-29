@@ -17,3 +17,12 @@ public class OxQuiz {
             int count = +1;
             int sum = 0;
 
+
+            for (int i = 0; i < input.length(); i++) {
+                if (input.charAt(i) == 'O') { // check the index is O or X
+                    value[i] = count++;
+                } else {
+                    value[i] = 0;
+                    count = 1;
+                }
+            }
