@@ -10,3 +10,10 @@ public class OxQuiz {
         Scanner scanner = new Scanner(System.in);
         int intsize =scanner.nextInt();
 
+
+        for(int j = 0; j < intsize; j++) { // put a input each String
+            String input = scanner.next();
+            int[] value = new int[input.length()];
+            int count = +1;
+            int sum = 0;
+
