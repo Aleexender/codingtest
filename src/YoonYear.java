@@ -7,3 +7,13 @@ public class YoonYear {
 
         final int yoon =1;
         final int nonYoon =0;
+
+        if (year % 4 == 0 && year % 100 != 0) {
+            System.out.println(yoon);
+        } else if (year % 400 == 0) {
+            System.out.println(yoon);
+        } else {
+            System.out.println(nonYoon);
+        }
+    }
+}
