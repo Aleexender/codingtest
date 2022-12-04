@@ -10,7 +10,7 @@ import java.util.Stack;
         while (true) {
 
             a = String.valueOf(scanner.nextInt()); //int인걸 String으로
-            if (a.equals("0")) {
+            if (a.equals("0")) { // 0 이면 끝나는 로직
                 break;
             }
             char[] num = new char[a.length()];
