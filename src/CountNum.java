@@ -14,3 +14,6 @@ public class CountNum {
 
         Integer calculate = A * B * C;
 //        int cal = A * B * C;
+
+        String eachnum = calculate.toString();
+//        String eachnum2 = String.valueOf(cal);
