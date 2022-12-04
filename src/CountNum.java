@@ -9,3 +9,8 @@ public class CountNum {
         int A = Integer.parseInt(bufferedReader.readLine());
         int B = Integer.parseInt(bufferedReader.readLine());
         int C = Integer.parseInt(bufferedReader.readLine());
+        final int unexchange = 9;
+        int count = 0;
+
+        Integer calculate = A * B * C;
+//        int cal = A * B * C;
