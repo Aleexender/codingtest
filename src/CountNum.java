@@ -24,3 +24,9 @@ public class CountNum {
                     count ++;
                 }
             }
+            bufferedWriter.write(count+"\n"); //담는것
+            count = 0;
+        }
+        bufferedWriter.flush(); // 콘솔로 output 느낌
+    }
+}
