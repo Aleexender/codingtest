@@ -9,3 +9,12 @@ public class Math3 {
             int A = scanner.nextInt();
             int B = scanner.nextInt();
             int total = A+B;
+            if (A + B == 0) {
+                continue;
+            } else {
+                System.out.println(total);
+            }
+        }
+    }
+}
+
