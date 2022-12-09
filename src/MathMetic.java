@@ -12,3 +12,12 @@ public class MathMetic {
         int divide = A/B;
         int rest = A%B;
 
+        for (int i = 0; i < 1; i++) {
+            System.out.println(add);
+            System.out.println(minus);
+            System.out.println(multiply);
+            System.out.println(divide);
+            System.out.println(rest);
+        }
+    }
+}
