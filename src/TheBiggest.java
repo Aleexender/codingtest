@@ -16,3 +16,8 @@ public class TheBiggest {
                 index = i+1; // index 값을 비교하는게 아니라 몇번째 인지 확인하는거기 때문에 +1
             }
         }
+
+        System.out.println(max);
+        System.out.println(index);
+    }
+}
