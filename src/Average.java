@@ -13,3 +13,7 @@ public class Average {
             score[i] = scanner.nextInt();
             maxScore = java.lang.Math.max(score[i], maxScore);
         }
+        for (int x = 0; x < subject ; x++) { // 점수를조작 하는 for문
+            logic = score[x] / maxScore *100;
+            average += logic;
+        }
