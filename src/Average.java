@@ -17,3 +17,7 @@ public class Average {
             logic = score[x] / maxScore *100;
             average += logic;
         }
+        System.out.println(average / subject);
+
+    }
+}
