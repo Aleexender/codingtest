@@ -22,3 +22,7 @@ public class BiggestLowest {
 //            }
 
         }
+        System.out.print(min + " ");
+        System.out.println(max);
+    }
+}
