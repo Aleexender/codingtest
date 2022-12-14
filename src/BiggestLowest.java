@@ -8,3 +8,9 @@ public class BiggestLowest {
         int min = 1000000; // 가장 큰수 부터 시작
 //        Integer.MAX_VALUE
 //        Integer.MIN_VALUE
+
+        for (int i = 0; i < count; i++) {
+            int num = scanner.nextInt();
+            max = java.lang.Math.max(num, max);
+            min = java.lang.Math.min(num, min);
+
