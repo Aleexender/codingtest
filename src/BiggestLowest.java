@@ -14,3 +14,11 @@ public class BiggestLowest {
             max = java.lang.Math.max(num, max);
             min = java.lang.Math.min(num, min);
 
+//            if (num > max) { // 큰수
+//                max = num;
+//            }
+//            if (num < min) {
+//                min = num;
+//            }
+
+        }
