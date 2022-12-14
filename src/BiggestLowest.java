@@ -6,3 +6,5 @@ public class BiggestLowest {
         int count = scanner.nextInt();
         int max = -1000000; // 가장 작은수 부터 시작
         int min = 1000000; // 가장 큰수 부터 시작
+//        Integer.MAX_VALUE
+//        Integer.MIN_VALUE
