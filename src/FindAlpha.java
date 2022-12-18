@@ -11,3 +11,8 @@ public class FindAlpha {
         }
 
         String word = scanner.nextLine();
+
+        for (int i = 0; i < word.length(); i++) {
+            char split = word.charAt(i);
+            int index = split - 'a'; // 알파벳 26개를 어디에 있는지 매핑해줌
+
