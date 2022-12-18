@@ -16,3 +16,7 @@ public class FindAlpha {
             char split = word.charAt(i);
             int index = split - 'a'; // 알파벳 26개를 어디에 있는지 매핑해줌
 
+            if (alpha[index] == -1) {
+                alpha[index] = i;
+            }
+
