@@ -20,3 +20,10 @@ public class FindAlpha {
                 alpha[index] = i;
             }
 
+        }
+        for (int num : alpha) {
+            System.out.print(num +" ");
+        }
+
+    }
+}
