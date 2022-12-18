@@ -10,3 +10,4 @@ public class FindAlpha {
             alpha[k] = -1;
         }
 
+        String word = scanner.nextLine();
