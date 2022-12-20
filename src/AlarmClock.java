@@ -16,3 +16,12 @@ public class AlarmClock {
                 hour += 24;
             }
         }
+        min -= getUpEarly;
+
+
+
+        System.out.println(hour +" " + min );
+
+
+    }
+}
