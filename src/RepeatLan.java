@@ -9,3 +9,9 @@ public class RepeatLan {
             int time = scanner.nextInt();
             String language = scanner.next();
 
+
+            for (int i = 0; i < language.length(); i++) {
+                for (int n = 0; n < time; n++) {
+                    System.out.print(language.charAt(i));
+                }
+            }
