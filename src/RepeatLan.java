@@ -15,3 +15,7 @@ public class RepeatLan {
                     System.out.print(language.charAt(i));
                 }
             }
+            System.out.println();
+        }
+    }
+}
