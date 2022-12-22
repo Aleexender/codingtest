@@ -15,7 +15,7 @@ public class OxQuiz {
             String input = scanner.next();
             int[] value = new int[input.length()];
             int count = +1;
-            int sum = 0;
+            int result = 0;
 
 
             for (int i = 0; i < input.length(); i++) {
@@ -27,9 +27,9 @@ public class OxQuiz {
                 }
             }
             for (int k = 0; k < value.length; k++) {
-                sum += value[k];
+                result += value[k];
             }
-            System.out.println(sum);
+            System.out.println(result);
         }
     }
 }
