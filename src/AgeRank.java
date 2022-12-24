@@ -28,12 +28,11 @@ public class AgeRank {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             int count = scanner.nextInt();
-            AgeName[] ageNames = new AgeName[count];
+            AgeName[] arrAgeName = new AgeName[count];
 
             for (int i = 0; i < count; i++) {
                 int age = scanner.nextInt();
                 String name = scanner.next();
-               ageNames[i] = new AgeName(age,name);
+               arrAgeName[i] = new AgeName(age,name);
             }
 
-            Arrays.sort(ageNames);
