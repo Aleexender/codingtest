@@ -29,3 +29,9 @@ public class AgeRank {
             Scanner scanner = new Scanner(System.in);
             int count = scanner.nextInt();
             AgeName[] ageNames = new AgeName[count];
+
+            for (int i = 0; i < count; i++) {
+                int age = scanner.nextInt();
+                String name = scanner.next();
+               ageNames[i] = new AgeName(age,name);
+            }
