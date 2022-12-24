@@ -35,3 +35,5 @@ public class AgeRank {
                 String name = scanner.next();
                ageNames[i] = new AgeName(age,name);
             }
+
+            Arrays.sort(ageNames);
