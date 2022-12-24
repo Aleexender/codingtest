@@ -36,3 +36,15 @@ public class AgeRank {
                arrAgeName[i] = new AgeName(age,name);
             }
 
+            Arrays.sort(arrAgeName);
+
+            for (AgeName ageName : arrAgeName) {
+                System.out.println(ageName.age + " " + ageName.name);
+            }
+        }
+
+
+
+    }
+
+}
