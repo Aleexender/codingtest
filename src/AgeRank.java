@@ -10,3 +10,17 @@ public class AgeRank {
             this.age = age;
             this.name = name;
         }
+
+
+        // 나이가 높으면 오름차순 -> 나이가 높으면 우선순위가 높다
+        // 나이가 같으면 가입한사람이 먼저
+        @Override
+        public int compareTo(AgeName other) {
+            if (this.age < other.age) {
+                return -1;
+            } else if (this.age > other.age) {
+                return +1;
+            } else { // 나이가 같을때
+                return 0;
+            }
+        }
