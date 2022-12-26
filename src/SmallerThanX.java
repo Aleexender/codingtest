@@ -6,3 +6,13 @@ public class SmallerThanX {
         int count = scanner.nextInt();
         int standard = scanner.nextInt();
         int[] num = new int[count];
+
+
+        for (int i = 0; i < count; i++) {
+            num[i] = scanner.nextInt();
+            if (num[i] < standard) {
+                System.out.print(num[i] + " ");
+            }
+        }
+    }
+}
