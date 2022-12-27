@@ -19,3 +19,4 @@ public class ChangeWord {
             }
 
         }
+        System.out.println(answer);
