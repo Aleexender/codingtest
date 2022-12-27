@@ -20,3 +20,17 @@ public class ChangeWord {
 
         }
         System.out.println(answer);
+
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.next();
+//        String answer = "";
+//        for (char x : input.toCharArray()) {
+//            if (Character.isLowerCase(x)) {
+//                answer += Character.toUpperCase(x);
+//            } else {
+//                answer += Character.toLowerCase(x);
+//            }
+//        }
+//        System.out.println(answer);
+    }
+}
