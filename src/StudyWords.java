@@ -34,6 +34,7 @@ public class StudyWords {
             if (countIndex == k) {// 가장 큰숫자가 countIndex 의 인덱스와 같을수 있기때문에 한번은 지나쳐야함
                 continue;
             }
+
             if (biggestNum == counts[k]) {
                 System.out.println("?");
                 return;
