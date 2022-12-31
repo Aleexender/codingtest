@@ -21,3 +21,16 @@ public class TheLeft {
         int num = 0;
         int index = 0;
         int count = 0;
+
+        for (int i = 0; i < 10; i++) {
+            num = scanner.nextInt();
+            index = num % 42;
+
+            arr[index]++;
+
+            if (arr[index] == 1) {
+                count += 1;
+            } else {
+                continue;
+            }
+
