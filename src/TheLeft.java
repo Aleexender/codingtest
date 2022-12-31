@@ -15,3 +15,9 @@ public class TheLeft {
 //        }
 //
 //        System.out.println(hashSet.size());
+
+        Scanner scanner = new Scanner(System.in);
+        int[] arr = new int[43];
+        int num = 0;
+        int index = 0;
+        int count = 0;
