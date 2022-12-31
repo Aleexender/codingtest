@@ -15,3 +15,8 @@ public class RepetLanWin {
                     System.out.print(S.charAt(j));
                 }
             }
+
+            System.out.println();
+        }
+    }
+}
