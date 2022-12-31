@@ -34,3 +34,20 @@ public class TheLeft {
                 continue;
             }
 
+//            if (arr[index] >= 1) { // 똑같은 값이 와도 해당 인덱스가 1을 넘어가지 못하게
+//                arr[index] = 1;
+//            }
+
+        }
+
+
+        System.out.println(count);
+
+        System.out.println(Arrays.toString(arr));
+
+
+
+
+
+    }
+}
