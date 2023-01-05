@@ -8,3 +8,11 @@ public class BeesHouse {
         final int sectiononeend = 7;
         int previousSection = sectionLogic - 1;
         int answer = 0;
+
+        if (input < sectionLogic) {
+            System.out.println("1");
+            return;
+        } else if (input < sectiononeend) {
+            System.out.println("2");
+            return;
+        }
