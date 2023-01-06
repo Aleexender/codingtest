@@ -16,3 +16,8 @@ public class Pibonachi {
             return 1;
         }
 
+        //recursive 떠넘기면 recursive
+        return fun(num - 1) + fun(num - 2);
+
+    }
+}
