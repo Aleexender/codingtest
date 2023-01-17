@@ -8,3 +8,11 @@ public class RepresentNum {
         int average = 0;
         List list = new ArrayList();
         int[] nums = new int[five];
+
+        for (int i = 0; i < five; i++) {
+            int num = scanner.nextInt();
+            addAll += num;
+            nums[i] = num;
+            list.add(num);
+        }
+
