@@ -16,3 +16,12 @@ public class RepresentNum {
             list.add(num);
         }
 
+        Arrays.sort(nums);
+        Collections.sort(list);
+        average = addAll / five;
+        System.out.println(average);
+        System.out.println(list.get(2));
+        System.out.println(nums[2]);
+    }
+
+}
