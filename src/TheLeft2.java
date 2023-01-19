@@ -8,3 +8,12 @@ public class TheLeft2 {
         Set<Integer> hashSet = new HashSet<>();
         final int repeat = 10;
         int count = 0;
+
+        for (int i = 0; i < repeat; i++) {
+            hashSet.add(scanner.nextInt()%42); // 중복이 안되서  중복되는 값은 제외
+        }
+
+        System.out.println(hashSet.size());
+        System.out.println(hashSet);
+    }
+}
