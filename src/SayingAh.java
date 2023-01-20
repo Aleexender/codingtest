@@ -6,3 +6,10 @@ public class SayingAh {
         String jInput = scanner.next();
         String docInput = scanner.next();
 
+        if (jInput.length() < docInput.length()) {
+            System.out.println("no");
+        } else {
+            System.out.println("go");
+        }
+    }
+}
