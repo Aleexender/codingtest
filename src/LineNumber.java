@@ -6,3 +6,11 @@ public class LineNumber {
         Scanner scanner = new Scanner(System.in);
         int time = Integer.parseInt(scanner.nextLine());
         String[] qwe = new String[time];
+
+
+//        for (int i = 0; i < time+1; i++) {
+//
+//
+//            System.out.println((i +1) + ". " + scanner.nextLine());
+//            }
+
