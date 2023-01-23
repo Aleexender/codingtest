@@ -14,3 +14,12 @@ public class LineNumber {
 //            System.out.println((i +1) + ". " + scanner.nextLine());
 //            }
 
+        for (int i = 0; i < qwe.length; i++) {
+            qwe[i] = scanner.nextLine();
+            String zxc = qwe[i];
+
+            System.out.println(i + 1 + ". " + zxc);
+        }
+
+        }
+    }
