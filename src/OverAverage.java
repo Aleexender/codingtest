@@ -13,3 +13,8 @@ public class OverAverage {
             double whoOverScore = 0;
             double answer = 0;
 
+            for (int j = 0; j < students; j++) {
+                score[j] = scanner.nextInt();
+                totalScore += score[j];
+            }
+
