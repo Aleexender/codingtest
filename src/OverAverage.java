@@ -19,3 +19,9 @@ public class OverAverage {
             }
 
             average = (totalScore / students);
+
+            for (int j = 0; j < students; j++) {
+                if (score[j] > average) {
+                    whoOverScore++;
+                }
+            }
