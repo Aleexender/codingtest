@@ -18,3 +18,4 @@ public class OverAverage {
                 totalScore += score[j];
             }
 
+            average = (totalScore / students);
