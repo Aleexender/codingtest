@@ -25,3 +25,8 @@ public class OverAverage {
                     whoOverScore++;
                 }
             }
+            answer = (whoOverScore / students) * 100;
+            System.out.printf("%.3f%%\n", answer);
+        }
+    }
+}
