@@ -23,3 +23,13 @@ public class Arrange {
             System.out.println(setting.x + " " + setting.y);
         }
     }
+
+    static class Setting implements Comparable<Setting> {
+    int x;
+    int y;
+
+//        public Setting(int x,int y) {
+//            this.x = x;
+//            this.y = y;
+//        }
+
