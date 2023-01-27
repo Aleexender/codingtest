@@ -16,3 +16,10 @@ public class Arrange {
             inputArray[i] = setting;
 //            inputArray[i] = new Setting(x, y); // x,y
         }
+
+        Arrays.sort(inputArray);
+
+        for (Setting setting : inputArray) {
+            System.out.println(setting.x + " " + setting.y);
+        }
+    }
