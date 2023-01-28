@@ -21,3 +21,14 @@ public class FindSue {
                 num[j] = num[j + 1] - num[j];
             }
 
+
+        }
+        for (int j = 0; j < N-K; j++) {
+            if (j < N- K-1) {
+                System.out.print(num[j] + ",");
+            } else {
+                System.out.print(num[j]);
+            }
+        }
+    }
+}
