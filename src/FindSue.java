@@ -14,3 +14,10 @@ public class FindSue {
             num[j] = Integer.parseInt(t[j]);
 
         }
+
+        for (int i = 0; i < K; i++) {
+
+            for (int j = 0; j < t.length-1; j++) {
+                num[j] = num[j + 1] - num[j];
+            }
+
