@@ -22,3 +22,8 @@ public class DobbyEnglish {
                     count++;
                 }
             }
+
+            System.out.println(alpha + " " + count);
+        }
+    }
+}
