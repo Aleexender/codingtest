@@ -16,3 +16,9 @@ public class DobbyEnglish {
             if (alpha.equals("#")) {
                 break;
             }
+            for (int i = 0; i < change.length; i++) {
+
+                if (change[i].equals(alpha)) {
+                    count++;
+                }
+            }
