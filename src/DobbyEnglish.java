@@ -13,3 +13,6 @@ public class DobbyEnglish {
             String[] change = input.split("");
             int count = 0;
 
+            if (alpha.equals("#")) {
+                break;
+            }
