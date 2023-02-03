@@ -6,3 +6,8 @@ public class BestRich {
         Scanner scanner = new Scanner(System.in);
         BigInteger n = scanner.nextBigInteger();
         BigInteger m = scanner.nextBigInteger();
+
+        System.out.println(n.divide(m)); // 나누기
+        System.out.println(n.remainder(m)); // 나머지
+    }
+}
