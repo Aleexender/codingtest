@@ -6,3 +6,11 @@ public class CardGame {
         final int time = 5;
         int total = 0;
 
+        for (int i = 0; i < time; i++) {
+            int input = scanner.nextInt();
+            total += input;
+        }
+        System.out.println(total);
+    }
+
+}
