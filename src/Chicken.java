@@ -20,3 +20,7 @@ public class Chicken {
                 n = n / k;
                 chicken += n;
             }
+            System.out.println(chicken);
+        }
+    }
+}
