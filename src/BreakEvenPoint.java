@@ -15,8 +15,8 @@ public class BreakEvenPoint {
                 break;
             }
 //            quantity++;
-//            addProduct += sellPrice;
-//            addProduct2 += originalCost;
+////            addProduct += sellPrice;
+////            addProduct2 += originalCost;
 //            if (fixedCost + addProduct2 < addProduct) {
 //                System.out.println(quantity);
 //                break;
