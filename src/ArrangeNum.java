@@ -14,3 +14,8 @@ public class ArrangeNum {
 //        ArrayList<Integer> arrayList = new ArrayList<>();
         int[] array = new int[quantity];
 
+        for (int i = 0; i < quantity; i++) {
+            array[i] = Integer.parseInt(bufferedReader.readLine());
+//            arrayList.add(number);
+
+        }
