@@ -30,3 +30,12 @@ public class ArrangeNum {
 //        for (int number: array) {
 //            System.out.println(number);
 //        }
+        for (int i = 0; i < quantity; i++) {
+            bufferedWriter.write(String.valueOf(array[i]) + "\n");
+        }
+        bufferedReader.close();
+        bufferedWriter.flush();
+        bufferedWriter.close();
+
+    }
+}
