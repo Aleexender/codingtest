@@ -19,3 +19,14 @@ public class ArrangeNum {
 //            arrayList.add(number);
 
         }
+
+        Arrays.sort(array);
+//        Collections.sort(arrayList);
+
+//        for (int a:arrayList) {
+//            System.out.println(a);
+//        }
+
+//        for (int number: array) {
+//            System.out.println(number);
+//        }
