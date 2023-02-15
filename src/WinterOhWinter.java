@@ -16,3 +16,7 @@ public class WinterOhWinter {
                 System.out.print(output);
 
             }
+            System.out.println();
+        }
+    }
+}
