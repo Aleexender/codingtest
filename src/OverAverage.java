@@ -6,7 +6,7 @@ public class OverAverage {
         int testCase = scanner.nextInt();
 
         for (int i = 0; i < testCase; i++) {
-            int students = scanner.nextInt();
+             int students = scanner.nextInt();
             int score[] = new int[students];
             int average = 0;
             int totalScore = 0;
