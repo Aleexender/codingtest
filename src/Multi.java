@@ -13,3 +13,8 @@ public class Multi {//2588
             result = changToInt * num;
             System.out.println(result);
         }
+        int changeNum = Integer.parseInt(multiNum);
+        System.out.println(num * changeNum);
+
+    }
+}
