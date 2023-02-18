@@ -11,3 +11,5 @@ public class ArrangeNumbersBronze {
             arr[i] = scanner.nextInt();
         }
 
+        Arrays.sort(arr);
+
