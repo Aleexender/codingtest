@@ -13,3 +13,8 @@ public class ArrangeNumbersBronze {
 
         Arrays.sort(arr);
 
+        for (int a : arr) {
+            System.out.print(a + " ");
+        }
+    }
+}
