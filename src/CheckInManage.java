@@ -5,3 +5,9 @@ public class CheckInManage {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
 
+        for (int i = 0; i < count; i++) {
+            String name = scanner.next();
+            System.out.println(name.toLowerCase());
+        }
+    }
+}
