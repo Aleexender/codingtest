@@ -26,3 +26,21 @@ public class SantanceInWord {
         String str = scanner.next();
         int min = Integer.MIN_VALUE,pos;
 
+        while ((pos = str.indexOf(' ')) != -1) {
+            String temp = str.substring(0, pos);
+            int length = temp.length();
+            if (length > min) {
+                min = length;
+                str = temp;
+            }
+            str = str.substring(pos + 1);
+        }
+        if (str.length() > min) {
+            System.out.println(str);;
+        }
+
+
+
+    }
+
+}
