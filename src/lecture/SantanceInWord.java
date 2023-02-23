@@ -19,3 +19,10 @@ public class SantanceInWord {
 //            }
 //        }
 //        System.out.println(output);
+
+
+
+
+        String str = scanner.next();
+        int min = Integer.MIN_VALUE,pos;
+
