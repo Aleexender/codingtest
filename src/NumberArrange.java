@@ -15,3 +15,10 @@ public class NumberArrange {
 
             Collections.sort(list);
         }
+        long end = System.currentTimeMillis();
+        System.out.println(list);
+
+
+        System.out.println("SDB에서 노드생성까지의 실행시간 : " + (end - start)/1000.0);
+    }
+}
