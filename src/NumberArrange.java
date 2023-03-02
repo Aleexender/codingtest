@@ -10,3 +10,8 @@ public class NumberArrange {
         int size = scanner.nextInt();
         List<Integer> list = new ArrayList();
 
+        for (int i = 0; i < size; i++) {
+            list.add(Integer.parseInt(scanner.next()));
+
+            Collections.sort(list);
+        }
