@@ -14,3 +14,9 @@ public class IAMChief {
                 arr[i] += score;
             }
         }
+        for (int i = 0; i < 5; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+                num = i;
+            }
+        }
