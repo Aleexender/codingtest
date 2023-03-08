@@ -20,3 +20,8 @@ public class IAMChief {
                 num = i;
             }
         }
+        System.out.print(num + 1 + " ");
+        System.out.print(max);
+
+    }
+}
