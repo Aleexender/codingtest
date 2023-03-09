@@ -9,3 +9,5 @@ public class PhoneCallCost {
         for (int i = 0; i < time; i++) {
             int phoneSec = scanner.nextInt();
 
+            minPayment += ((phoneSec / 60) + 1) * 15;
+            yongPayment += ((phoneSec / 30) + 1) * 10;
