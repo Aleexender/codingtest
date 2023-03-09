@@ -11,3 +11,13 @@ public class PhoneCallCost {
 
             minPayment += ((phoneSec / 60) + 1) * 15;
             yongPayment += ((phoneSec / 30) + 1) * 10;
+        }
+        if (yongPayment == minPayment) {
+            System.out.println("Y M " + yongPayment);
+        } else if (yongPayment < minPayment) {
+            System.out.println("Y " + yongPayment);
+        } else {
+            System.out.println("M " + minPayment);
+        }
+    }
+}
