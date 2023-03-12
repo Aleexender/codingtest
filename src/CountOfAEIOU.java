@@ -23,3 +23,9 @@ public class CountOfAEIOU {
                     }
                 }
             }
+
+            System.out.println(count);
+
+        }
+    }
+}
