@@ -20,3 +20,6 @@ public class MakingEnagram {
                 }
             }
         }
+        System.out.println(answer*2);
+    }
+}
