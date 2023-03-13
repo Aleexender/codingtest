@@ -8,3 +8,6 @@ public class MakingEnagram {
         String[] split = input.split("");
         String[] otherSplit = otherInput.split("");
         int answer = 0;
+        for (int i = 0; i < split.length; i++) {
+            int count = 0;
+            for (int j = 0; j < split.length; j++) {
