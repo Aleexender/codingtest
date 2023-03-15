@@ -7,3 +7,11 @@ public class Noise {
         BigInteger number = new BigInteger(scanner.next());
         String multiple = scanner.next();
         BigInteger number2 = new BigInteger(scanner.next());
+
+        if (multiple.equals("*")) {
+            System.out.println( number.multiply(number2));
+        } else if (multiple.equals("+")) {
+            System.out.println(number.add(number2));
+        }
+    }
+}
