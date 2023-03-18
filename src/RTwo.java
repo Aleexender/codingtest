@@ -6,3 +6,8 @@ public class RTwo {
         int r1 = scanner.nextInt();
         int average = scanner.nextInt();
 
+        int r2 = average * 2 - r1;
+        System.out.println(r2);
+
+    }
+}
