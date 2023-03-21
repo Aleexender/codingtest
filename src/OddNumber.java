@@ -15,3 +15,13 @@ public class OddNumber {
                 oddNums.add(number);
             }
         }
+        if (count == 0) {
+            System.out.println("-1");
+        } else {
+            System.out.println(sum);
+            Collections.sort(oddNums);
+            System.out.println(oddNums.get(0));
+        }
+
+    }
+}
