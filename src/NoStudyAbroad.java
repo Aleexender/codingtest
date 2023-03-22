@@ -11,3 +11,8 @@ public class NoStudyAbroad {
         qwe.add(divide);
         char[] cambridge = {'C', 'A', 'M', 'B', 'R', 'I', 'D', 'G', 'E'};
 
+        for (int i = 0; i < cambridge.length; i++) {
+            if (qwe.contains(cambridge[i])) {
+                qwe.remove(cambridge[i]);
+            }
+        }
