@@ -16,3 +16,9 @@ public class NoStudyAbroad {
                 qwe.remove(cambridge[i]);
             }
         }
+        for (char[] a :qwe) {
+            System.out.println(a);
+        }
+        System.out.println(input.replaceAll("[CAMBRIDGE]",""));
+    }
+}
