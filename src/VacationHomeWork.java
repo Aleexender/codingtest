@@ -9,3 +9,14 @@ public class VacationHomeWork {
         int possibleEn = scanner.nextInt(); // 일일당 할수있는 페이지
         int possibleMa = scanner.nextInt();
 
+        for (int i = day-1; i > 0; i--) {
+            english -= possibleEn;
+            math -= possibleMa;
+
+            if (english <= 0 && math <= 0) {
+                System.out.println(i);
+                return;
+            }
+        }
+    }
+}
