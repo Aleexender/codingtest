@@ -7,3 +7,14 @@ public class PartTimePCBang {
         int people = scanner.nextInt();
         int count = 0;
 
+        for (int i = 0; i < people; i++) {
+            int get = scanner.nextInt();
+
+            if (chair[get]) {
+                count++;
+            }
+            chair[get] = true;
+        }
+        System.out.println(count);
+    }
+}
