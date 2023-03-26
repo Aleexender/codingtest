@@ -23,3 +23,13 @@ public class Snow {
                     }
                 }
             }
+        answer = snow;
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Snow snow = new Snow();
+        System.out.println(Arrays.toString(snow.solution(6,new int[]{2,3,5,1,13,12})));
+    }
+}
+
