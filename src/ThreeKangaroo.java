@@ -9,3 +9,6 @@ public class ThreeKangaroo {
         int c = scanner.nextInt();
 
         int max = b - a > c - b ? b - a : c - b;
+        System.out.println(max - 1);
+    }
+}
