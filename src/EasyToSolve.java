@@ -10,3 +10,14 @@ public class EasyToSolve {
         int sec = scanner.nextInt();
         int answer = 0;
 
+        for (int i = 0; i <1000; i++) {
+            for (int j = 0; j <= i; j++) {
+                arrayList.add(i + 1);
+            }
+        }
+        for (int i = first-1; i <=sec-1; i++) {
+            answer += arrayList.get(i);
+        }
+        System.out.println(answer);
+    }
+}
