@@ -16,3 +16,23 @@ public class FindWord {
 //                count++;
 //            }
 //        }
+
+        for (char x : str.toCharArray()) {
+            if (x == input) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
+
+//
+//    public int Solution(String str, char t) {
+//        int answer = 0;
+//        str.toUpperCase();
+//        t = Character.toUpperCase(t);
+//        System.out.println(str);
+//
+//        return answer;
+//    }
+//}
