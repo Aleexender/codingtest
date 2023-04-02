@@ -24,3 +24,18 @@ public class ConstantPart {
                     z++;
                 }
             }
+
+            for (int k = 0; k < 8; k++) {
+                if (max < count[k]) {
+                    max = count[k];
+                }
+            }
+
+            if (noRepeat) {
+                System.out.println("1");
+            } else {
+                System.out.println(max + 1);
+            }
+        }
+    }
+}
