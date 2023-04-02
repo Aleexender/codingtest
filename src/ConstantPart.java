@@ -13,3 +13,14 @@ public class ConstantPart {
             for (int k = 0; k < 8; k++) {
                 arr[k] = Integer.parseInt(a[k]);
             }
+
+            int z = 0;
+
+            for (int k = 0; k < 7; k++) {
+                if (arr[k] == arr[k + 1]) {
+                    count[z]++;
+                    noRepeat = false;
+                } else {
+                    z++;
+                }
+            }
