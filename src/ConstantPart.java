@@ -10,3 +10,6 @@ public class ConstantPart {
             String[] a = scanner.next().split("");
             int max = 0;
 
+            for (int k = 0; k < 8; k++) {
+                arr[k] = Integer.parseInt(a[k]);
+            }
