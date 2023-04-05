@@ -15,3 +15,22 @@ public class BlackJack {
         int results = 0;
         int[] numbers = new int[amountCard];
 
+        for (int i = 0; i < amountCard; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+        for (int i = 0; i < amountCard; i++) {
+            for (int j = i+1; j < amountCard; j++) {
+                for (int k = j+1; k < amountCard; k++) {
+                    results = numbers[i] + numbers[j] + numbers[k]; // 3중 for문 사용해야지 전체를 돔
+
+                    if (max < results) {
+                        if (results <= objectNumber) {
+                            max = results;
+                        }
+                    }
+                }
+            }
+        }
+        System.out.println(max);
+    }
+}
