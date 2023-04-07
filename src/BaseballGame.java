@@ -19,3 +19,18 @@ public class BaseballGame {
             int n = splitName[0];
             num[n - 'a'] += 1;
         }
+
+        for (int i = 0; i < num.length; i++) { // 5를 넘는지 검사하는 로직
+            if (num[i] >= 5) {
+                char answer = (char) (i + 'a');
+                System.out.print(answer);
+            }
+            if (num[i] >= 5) { // 전체를 검사하고 5를 넘는게 있다면 true를 넘겨주는 로직
+                onlyOne = true;
+            }
+        }
+        if (!onlyOne) {
+            System.out.println("PREDAJA");
+        }
+    }
+}
