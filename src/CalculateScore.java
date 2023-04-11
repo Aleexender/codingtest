@@ -8,3 +8,18 @@ public class CalculateScore {
         int count2 = 0;
         int[] num = new int[count];
 
+        for (int i = 0; i < count; i++) {
+            num[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] == 1) {
+                count2++;
+                sum += count2;
+            } else {
+                count2 = 0;
+            }
+        }
+        System.out.println(sum);
+    }
+}
