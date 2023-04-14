@@ -24,3 +24,9 @@ public class PlusCycle {
         }
         System.out.println(count);
     }
+
+    public static void main(String[] args) {
+        PlusCycle plusCycle = new PlusCycle();
+        plusCycle.logic();
+    }
+}
