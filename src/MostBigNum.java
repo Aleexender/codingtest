@@ -18,3 +18,8 @@ public class MostBigNum {
                 }
             }
         }
+        System.out.println(max);
+        System.out.print(row+1+" ");
+        System.out.print(colum+1);
+    }
+}
