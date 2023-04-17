@@ -11,3 +11,10 @@ public class MostBigNum {
             for (int j = 0; j < 9; j++) {
                 num[i][j] = scanner.nextInt();
 
+                if (num[i][j] > max) {
+                    max = num[i][j];
+                    row = i;
+                    colum = j;
+                }
+            }
+        }
