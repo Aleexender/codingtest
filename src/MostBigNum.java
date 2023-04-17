@@ -7,3 +7,7 @@ public class MostBigNum {
         int max = 0;
         int colum = 0;
         int row = 0;
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                num[i][j] = scanner.nextInt();
+
