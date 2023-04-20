@@ -14,3 +14,21 @@ public class ConferenceOrIntern {
         int intern = scanner.nextInt();
         int group = 0;
 
+        while (true) {
+            if (girls + mens < intern) {
+                group--;
+                break;
+            }
+            if (mens < 0) {
+                group--;
+                break;
+            }
+            if (girls < 0) {
+                group--;
+                break;
+            }
+            girls -= 2;
+            mens -= 1;
+            group++;
+
+        }
