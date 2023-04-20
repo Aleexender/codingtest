@@ -32,3 +32,8 @@ public class ConferenceOrIntern {
             group++;
 
         }
+
+        System.out.println(group);
+
+    }
+}
