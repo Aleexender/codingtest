@@ -9,3 +9,15 @@ public class WhoDidNotSubmit {
         final int totalStudent = 30;
         boolean arr[] = new boolean[31];
 
+        for (int i = 0; i < studentNumWhoCall ; i++) {
+            int input = Integer.parseInt(bufferedReader.readLine());
+            arr[input] = true;// 인덱스 번호로 들어간다.
+
+        }
+        for (int i = 1; i <= totalStudent; i++) {
+            if (!arr[i]) {
+                System.out.println(i);
+            }
+        }
+    }
+}
