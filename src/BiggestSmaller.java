@@ -14,3 +14,7 @@ public class BiggestSmaller {
         int max = Arrays.stream(nums).max().getAsInt();
         int min = Arrays.stream(nums).min().getAsInt();
 
+        System.out.print(min + " ");
+        System.out.print(max);
+    }
+}
