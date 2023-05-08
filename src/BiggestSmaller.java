@@ -7,3 +7,7 @@ public class BiggestSmaller {
         int numQuan = scanner.nextInt();
         int[] nums = new int[numQuan];
 
+        for (int i = 0; i < numQuan; i++) {
+            nums[i] = scanner.nextInt();
+        }
+
