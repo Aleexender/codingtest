@@ -7,3 +7,13 @@ public class SangGenFriends {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        while (true) {
+            int[] sum = new int[2];
+
+            for (int j = 0; j < sum.length; j++) {
+                sum[j] = scanner.nextInt();
+            }
+
+            if (sum[0] == 0 && sum[1] == 0) {
+                break;
+            }
