@@ -17,3 +17,9 @@ public class SangGenFriends {
             if (sum[0] == 0 && sum[1] == 0) {
                 break;
             }
+            int result = Arrays.stream(sum).sum();
+
+            System.out.println(result);
+        }
+    }
+}
