@@ -14,3 +14,7 @@ public class Rest {
         nums.stream().map(a -> a % 42).forEach(b -> answer.add(b));
         Long count = nums.stream().map(b -> b % 42).distinct().count();
 
+
+        System.out.println(count);
+    }
+}
