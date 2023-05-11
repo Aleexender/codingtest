@@ -7,3 +7,6 @@ public class Rest {
         List<Integer> nums = new ArrayList<>();
         HashSet<Integer> answer = new HashSet<>();
 
+        for (int i = 0; i < 10; i++) {
+            nums.add(scanner.nextInt());
+        }
