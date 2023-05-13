@@ -8,3 +8,6 @@ public class CountNumber {
         int[] numbers = new int[num];
         int result = 0;
 
+        for (int i = 0; i < num; i++) {
+            numbers[i] = scanner.nextInt();
+        }
