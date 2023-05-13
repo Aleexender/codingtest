@@ -14,3 +14,11 @@ public class CountNumber {
 
         int correctNum = scanner.nextInt();
 
+             result =(int) Arrays.stream(numbers)
+                     .filter(a -> a == correctNum)
+                     .count();
+
+        System.out.println(result);
+
+    }
+}
