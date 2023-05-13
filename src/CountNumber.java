@@ -11,3 +11,6 @@ public class CountNumber {
         for (int i = 0; i < num; i++) {
             numbers[i] = scanner.nextInt();
         }
+
+        int correctNum = scanner.nextInt();
+
