@@ -7,3 +7,7 @@ public class LessThanX {
         int numberQuan = scanner.nextInt();
         int numLimit = scanner.nextInt();
         int[] nums = new int[numberQuan];
+
+        for (int i = 0; i < numberQuan; i++) {
+            nums[i] = scanner.nextInt();
+        }
