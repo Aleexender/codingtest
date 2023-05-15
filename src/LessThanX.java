@@ -11,3 +11,7 @@ public class LessThanX {
         for (int i = 0; i < numberQuan; i++) {
             nums[i] = scanner.nextInt();
         }
+        Arrays.stream(nums).filter(a -> a < numLimit).forEach(a -> System.out.print(a + " "));
+
+    }
+}
