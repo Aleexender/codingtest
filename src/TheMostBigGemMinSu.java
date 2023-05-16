@@ -20,3 +20,12 @@ public class TheMostBigGemMinSu {
                     break;
                 }
             }
+
+            if (flag) {
+                System.out.println(i);
+                break;
+            }
+        }
+        scan.close();
+    }
+}
