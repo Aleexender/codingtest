@@ -16,3 +16,10 @@ public class RangePlus {
                 }
             }
         }
+        // 프린트 해주는 메소드
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < vertical; j++) {
+                System.out.print(arrArr[i][j] +" " );
+            }
+            System.out.println();
+        }
