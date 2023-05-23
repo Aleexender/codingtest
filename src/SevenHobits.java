@@ -8,3 +8,8 @@ public class SevenHobits {
         int[] people = new int[FAKE_PEOPLE];
         int sum = 0;
 
+        for (int i = 0; i < FAKE_PEOPLE; i++) {
+            people[i] = scanner.nextInt();
+            sum += people[i];
+        }
+
