@@ -24,3 +24,8 @@ import java.util.Scanner;
 
 public class StrangeMultiply {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String num = scanner.next();
+        String num1 = scanner.next();
+        long result = 0;
+
