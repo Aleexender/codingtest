@@ -20,3 +20,7 @@
 //}
 //
 
+import java.util.Scanner;
+
+public class StrangeMultiply {
+    public static void main(String[] args) {
