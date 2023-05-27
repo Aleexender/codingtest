@@ -29,3 +29,11 @@ public class StrangeMultiply {
         String num1 = scanner.next();
         long result = 0;
 
+        for (int i = 0; i < num.length(); i++) {
+            for (int j = 0; j < num1.length(); j++) {
+                int number = Character.getNumericValue(num.charAt(i));
+                int number1 = Character.getNumericValue(num1.charAt(j));
+                result += number * number1;
+
+            }
+        }
