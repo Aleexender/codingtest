@@ -37,3 +37,8 @@ public class StrangeMultiply {
 
             }
         }
+        System.out.println(result);
+    }
+}
+
+
