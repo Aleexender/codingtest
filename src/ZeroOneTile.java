@@ -14,9 +14,7 @@ public class ZeroOneTile {
         //base case -> 떠넘기지 않아도 되는것 == n만 큼 진행 됐다
         if (tiles <= 0) {
             return 0;
-        }
-
-        else if (cache[tiles] != 0) {
+        }else if (cache[tiles] != 0) {
             return cache[tiles];
         }else if (tiles == 2) {
             return 2;
