@@ -6,6 +6,8 @@ public class AverageScore {
         final int FIVE_PEOPLE = 5;
         int sum = 0;
 
+
+
         for (int i = 0; i < FIVE_PEOPLE; i++) {
             int score = scanner.nextInt();
             if (score < 40) {
