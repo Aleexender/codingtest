@@ -4,7 +4,6 @@ public class FindPinaryNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int length = scanner.nextInt();
-        int wasOne = 0;
         long[][] cache = new long[length][2];
 
         if (length == 1) {
@@ -12,35 +11,39 @@ public class FindPinaryNumber {
         } else if (length == 2) {
             System.out.println(1);
         } else {
-            System.out.println(fun(length-3, 0, cache) + fun(length-3, 1, cache));
-            System.out.println();
-
+            System.out.println(fun(length - 2, 0, cache));
         }
 
 
     }
 
-    private static long fun(int length, int now, long[][] cache) {
+    private static long fun(int length, int wasOne, long[][] cache) {
         long total = 0;
         //base case
-        if (cache[length][now] != 0) {//cache hit
-            return cache[length][now];
+        if (cache[length][wasOne] != 0) {//cache hit
+            return cache[length][wasOne];
         }
-        if (length == 1) {
+
+
+        if (length == 1 && wasOne == 1) {
+            return 1;
+        } else if (length == 1 && wasOne == 0) {
             return 2;
-        } else if (length == 2) {
+        } else if (length == 2 && wasOne == 1) {
+            return 2;
+        } else if (length == 2 && wasOne == 0) {
             return 3;
         }
 
 
         // recursive case
-        if (now == 1) {
+        if (wasOne == 1) {
             total += fun(length - 1, 0, cache);
         } else {
             total += fun(length - 1, 0, cache);
             total += fun(length - 1, 1, cache);
         }
-        cache[length][now] = total;
+        cache[length][wasOne] = total;
         return total;
     }
 }
