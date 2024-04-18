@@ -51,14 +51,6 @@ public class AttemptNum {
     public static void fun(int row, int colum, char[][] twoArr, boolean[][] validate) { //DFS
         // base case
         validate[row][colum] = true;
-//        if (twoArr[row][colum] == 0) {
-//            return;
-//        }
-//        if (validate[row][colum]) {
-//            System.out.print(row);
-//            System.out.print(colum);
-//            System.out.println();
-//        }
         apt++;
 
         //recursive case
