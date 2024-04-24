@@ -1,3 +1,5 @@
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class TestReferee {
@@ -31,7 +33,8 @@ public class TestReferee {
 
             mainReferee++;
         }
-
+        int[] qwe = new int[4];
+        Arrays.sort(qwe);
         System.out.println(mainReferee + subReferee);
     }
 }
