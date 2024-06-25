@@ -26,8 +26,8 @@ public class RGBDistance {
             min = java.lang.Math.min(min, a);
 
         }
-        Set<Integer> set = new HashSet<>();
-        set.add()
+        double max = Double.MIN_VALUE;
+        java.lang.Math.max(max, 0.0);
         System.out.println(min);
     }
 
