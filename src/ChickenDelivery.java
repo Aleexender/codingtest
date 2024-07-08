@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,10 +20,10 @@ public class ChickenDelivery {
             String[] line = reader.readLine().split(" ");
             for (int k = 0; k < n; k++) {
                 arr[i][k] = Integer.parseInt(line[k]);
-                if(arr[i][k] == 1){ // house
+                if (arr[i][k] == 1) { // house
                     houses.add(i + 1);
                     houses.add(k + 1);
-                } else if(arr[i][k] == 2) { // chicken
+                } else if (arr[i][k] == 2) { // chicken
                     chickens.add(i + 1);
                     chickens.add(k + 1);
                 }
@@ -32,18 +32,20 @@ public class ChickenDelivery {
 
         boolean[] isVisited = new boolean[chickens.size()];
 
-        fun(houses, chickens, m, new ArrayList<>(), isVisited);
+        fun(houses, chickens, m, new ArrayList<>(), 0);
 
         System.out.println(totalMin);
     }
 
     private static int totalMin = Integer.MAX_VALUE;
 
-    private static int fun(List<Integer> houses, List<Integer> chickens, int m, List<Integer> checkedChicken,
-                           boolean[] isVisited) {
+    private static int fun(List<Integer> houses, List<Integer> chickens, int m,
+                           List<Integer> checkedChicken,
+                           int index) {
 
         int sum = 0;
-
+        String[] record = new String[5];
+        Integer.parseInt(record[0]);
         // base case
         if (m == 0) {
             for (int i = 0; i < houses.size(); i += 2) {
@@ -63,20 +65,14 @@ public class ChickenDelivery {
         }
 
         // recursive
-        for (int i = 0; i < chickens.size(); i += 2) {
-            if (!isVisited[i]) {
-                Integer row = chickens.get(i); // row
-                Integer col = chickens.get(i + 1); // col
-                checkedChicken.add(row);
-                checkedChicken.add(col);
-                isVisited[i] = true;
-                isVisited[i + 1] = true;
-                totalMin = java.lang.Math.min(fun(houses, chickens, m - 1, checkedChicken, isVisited), totalMin);
-                isVisited[i] = false;
-                isVisited[i + 1] = false;
-                checkedChicken.remove(checkedChicken.size() - 1);
-                checkedChicken.remove(checkedChicken.size() - 1);
-            }
+        for (int i = index; i < chickens.size(); i += 2) {
+            Integer row = chickens.get(i); // row
+            Integer col = chickens.get(i + 1); // col
+            checkedChicken.add(row);
+            checkedChicken.add(col);
+            totalMin = java.lang.Math.min(fun(houses, chickens, m - 1, checkedChicken, i + 2), totalMin);
+            checkedChicken.remove(checkedChicken.size() - 1);
+            checkedChicken.remove(checkedChicken.size() - 1);
         }
 
         return totalMin;
